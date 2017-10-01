@@ -1,0 +1,26 @@
+    Then I press the menu key
+    And I wait for "Add note" to appear
+    Then I touch the "Add note" text
+    And I enter "Note to be saved " into input field number 1
+    Then I press the enter button
+    Then I press the menu key
+    And I wait for "Save" to appear
+    Then I touch the "Save" text
+    And I wait for "Not to be saved" to appear
+
+    Then I press the menu key
+    And I wait for "Add note" to appear
+    Then I touch the "Add note" text
+    And I enter "Not to be deleted" into input field number 1
+    Then I press the enter button
+    Then I press the menu key
+    And I wait for "Save" to appear
+    Then I touch the "Save" text
+    And I wait for "Not to be deleted" to appear
+    Then I touch the "The note I will delete" text
+    And I wait for "Not to be deleted" to appear
+    Then I press the menu key
+    And I wait for "Delete" to appear
+    Then I touch the "Delete" text   
+    Then I should not see "Not to be deleted"    
+

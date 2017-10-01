@@ -1,0 +1,6 @@
+en el folder features:
+calabash-android resign "Transmilenio y Sitp_v17.9.0_apkpure.com.apk"
+
+en el folder tests:
+calabash-android run "D:\AndesMISO4208\03 Talleres\06 Taller 6\calabash\tests\features\Transmilenio y Sitp_v17.9.0_apkpure.com.apk"
+
